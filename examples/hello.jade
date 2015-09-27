@@ -1,0 +1,12 @@
+doctype html
+html(lang='cn')
+
+.contaner
+	h1 Hello world
+	p This is jade
+
+	// - , enctype="multipart/form-data")
+	form(action='/post', method='post')
+		.form-group
+			input(name='NAME', value='shweb')
+			button(type='submit') Submit
